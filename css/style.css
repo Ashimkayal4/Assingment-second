@@ -15,7 +15,7 @@ body{
 /* header starts */
 .header{
  max-width: 1400px;
- height: 700px;
+ height: 750px;
  border: 2px solid tomato;
 }
 /* header ends here */
@@ -52,6 +52,11 @@ body{
     text-decoration: none;
     color: #FFFFFF;
     margin-right: 1.5rem;
+}
+.hamberger{
+    display: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
 .nav-btn{
     width: 4rem;
@@ -90,6 +95,28 @@ body{
 
 .banner-img img{
     width: 100%;
+    position: relative;
 }
-
+.over-btn1{
+ position:absolute;
+ top: 90%;
+ left: 65%;
+ height: 4rem;
+ width: 7rem;
+ background-color: #746b6bc4;
+}
+.over-btn2{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    height: 4rem;
+    width: 7rem;
+    background-color: #746b6bc4;
+}
 /* banner end here */
+
+/* main starts here */
+.main{
+    max-width: 1400px;
+    height: 2500px;
+}
