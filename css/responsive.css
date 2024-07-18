@@ -1,23 +1,64 @@
 @media screen and (max-width:570px) {
+    /* header section */
+    .header{
+        height: 1100px;
+        width: 90%;
+    }
+    /* banner section resposive start */
     .banner{
         flex-direction: column;
     }
     .hamberger{
         display: block;
+        color: #ffffff;
     }
     .nav-links{
         display: none;
     }
+    /* banner section responsive start */
     .banner{
         height:1000px;
     }
     .banner-text{
+        font-weight: 500;
         font-size: 2.5rem;
+        width: 90%;
+    }
+    .banner-img img{
+        margin: 0 2rem;
+        width: 90%;
+        align-items: center;
     }
     .banner-div-btn{
         display: flex;
     }
     .banner-btn{
         margin-left: 0.5rem;
+    }
+    .over-btn1{
+        position: absolute;
+        top: 95%;
+        left: 10%;
+    }
+    .over-btn2{
+        top: 75%;
+        right: 20%;
+    }
+    /* main section responsive start */
+    .main{
+        width: 95%;
+    }
+    .habit-caption{
+        font-weight: 800;
+        font-size: 1.7rem;
+    }
+    .habit-pic{
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .habit-pic img{
+        width: 90%;
+        margin-bottom: 1rem;
     }
 }

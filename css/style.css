@@ -16,13 +16,16 @@ body{
 .header{
  max-width: 1400px;
  height: 750px;
- border: 2px solid tomato;
+ /* border: 2px solid tomato; */
 }
 /* header ends here */
 
 /* common style start */
 .common{
     color: #FFFFFF;
+}
+.common-2{
+    color: #eee7e7b4;
 }
 .common-btn{
     background-color: #E6533C;
@@ -99,19 +102,33 @@ body{
 }
 .over-btn1{
  position:absolute;
+ display: flex;
  top: 90%;
  left: 65%;
- height: 4rem;
- width: 7rem;
- background-color: #746b6bc4;
+ height: 5rem;
+ width: 10rem;
+ background-color: #a59e9e62;
+ border-radius: 1rem;
+}
+.circle{
+   height: 2rem;
+   width: 2rem;
+   background-color: #E6533C;
+   border-radius: 1rem;
+   justify-content: center;
+   margin: 1rem 1rem;
+}
+.over-btn1-text{
+    margin: 1rem 0;
 }
 .over-btn2{
     position: absolute;
-    top: 45%;
-    right: 10%;
-    height: 4rem;
-    width: 7rem;
-    background-color: #746b6bc4;
+    top: 43%;
+    right: 5%;
+    height: 5rem;
+    width: 9rem;
+    background-color: #a59e9e62;
+    border-radius: 1rem;
 }
 /* banner end here */
 
@@ -119,4 +136,29 @@ body{
 .main{
     max-width: 1400px;
     height: 2500px;
+}
+/* habit section starts here */
+.habit-section{
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+}
+.habit-section-text{
+    display: grid;
+    place-items: center;
+    margin-bottom: 3rem;
+}
+.habit-caption{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.habit-pic{
+    margin-top: 2rem;
+    display: flex;
+}
+.habit-pic img{
+    width: 100%;
+    margin-right: 3rem;
+    border-radius: 15rem;
 }
