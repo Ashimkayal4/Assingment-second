@@ -1,64 +1,173 @@
-@media screen and (max-width:570px) {
+@media screen and (max-width:576px) {
     /* header section */
     .header{
-        height: 1100px;
-        width: 90%;
+        height: 920px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
-    /* banner section resposive start */
+    /* banner section responsive start */
+    .navbar{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
     .banner{
         flex-direction: column;
     }
     .hamberger{
         display: block;
         color: #ffffff;
+        font-size: 1.5rem;
     }
     .nav-links{
         display: none;
     }
     /* banner section responsive start */
     .banner{
-        height:1000px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .banner-div1{
+      width: 90%;
     }
     .banner-text{
         font-weight: 500;
         font-size: 2.5rem;
         width: 90%;
     }
+    .div1-para{
+        width: 90%;
+    }
+    .banner-div2{
+        /* height: 90%; */
+        width: 90%;
+    }
     .banner-img img{
         margin: 0 2rem;
-        width: 90%;
-        align-items: center;
+        width: 90%
     }
     .banner-div-btn{
         display: flex;
+        width: 90%;
     }
     .banner-btn{
         margin-left: 0.5rem;
     }
     .over-btn1{
         position: absolute;
-        top: 95%;
+        top: 75%;
         left: 10%;
+        height: 4.5rem;
+        width: 9rem;
+        border-radius: 0.8rem;
+    }
+    .circle {
+       height: 1.5rem;
+       width: 1.5rem;
+       background-color: #E6533C;
+       border-radius: 0.5rem;
+       margin: 0.5rem 0.5rem;
+    }
+    .btn1-watch{
+        font-weight: 700;
+        font-size: 1.5rem;
     }
     .over-btn2{
-        top: 75%;
-        right: 20%;
+        top: 55%;
+        right: 15%;
+        height: 4.5rem;
+        width: 9rem;
+        border-radius: 0.8rem;
     }
     /* main section responsive start */
     .main{
-        width: 95%;
+        height: 5700px;
+        /* border: 2px solid red; */
+    }
+    .habit-section{
+        width: 90%;
+        height:1300px;
     }
     .habit-caption{
         font-weight: 800;
         font-size: 1.7rem;
     }
     .habit-pic{
+        width: 90%;
         margin: 0 auto;
         display: grid;
+        place-items: center;
         grid-template-columns: repeat(1,1fr);
     }
     .habit-pic img{
-        width: 90%;
+        width: 80%;
         margin-bottom: 1rem;
     }
+    /* run section starts here */
+    .run-section{
+        margin: 0 auto;
+        flex-direction: column;
+        width: 90%;
+        height: 750px;
+    }
+    .run-btn{
+        width: 90%;
+    }
+    .run-img{
+         margin: 1rem 1rem;
+    }
+    /* self section starts here */
+    .self-section{
+        width: 80%;
+        height: 600px;
+    }
+
+    /* bmi sections starts here */
+    .bmi-heading{
+        width: 90%;
+    }
+    .bmi-section{
+        width: 100%;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    /* bmi-table section here */
+
+    .bmi-calculator{
+        height: 50%;
+    }
+    /* team section starts here */
+    .team-heading{
+        width: 90%;
+        height: 200px;
+    }
+    .team-pic{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+    .team-img-container img {
+       width: 90%;
+       height: 95%;
+       border-radius: 2rem;
+    }
+
+    /* footer starts here */
+    .footer{
+        height: 850px;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+
+    .footer-child{
+        flex-direction: column;
+        height: 700px;
+        /* width: 90%; */
+    }
+    .copyright{
+        height: 100px;
+        /* width: 90%; */
+    }
+
 }
