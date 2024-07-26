@@ -16,7 +16,7 @@ body{
 .header{
  max-width: 1400px;
  height: 750px;
- /* border: 2px solid tomato; */
+ border: 2px solid tomato;
 }
 /* header ends here */
 
@@ -74,9 +74,11 @@ body{
 /* banner starts here */
 .banner{
     width: 85%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     display: flex;
     justify-content: space-between;
+    border: 2px solid blue;
+    /* height: 800px; */
 }
 
 .banner-text{
@@ -95,7 +97,9 @@ body{
     border-radius: 1rem;
 } 
 /* banner div 1 end */
-
+.banner-div2{
+    margin-right: 2rem;
+}
 .banner-div2 img{
     width: 100%;
     position: relative;
@@ -124,8 +128,8 @@ body{
 }
 .over-btn2{
     position: absolute;
-    top: 43%;
-    right: 5%;
+    top: 40%;
+    right: 10%;
     height: 5rem;
     width: 9rem;
     background-color: #a59e9e62;

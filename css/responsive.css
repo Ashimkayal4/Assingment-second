@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     /* header section */
     .header{
-        height: 920px;
+        height: 1020px;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
@@ -73,7 +73,7 @@
         font-size: 1.5rem;
     }
     .over-btn2{
-        top: 55%;
+        top: 60%;
         right: 15%;
         height: 4.5rem;
         width: 9rem;
