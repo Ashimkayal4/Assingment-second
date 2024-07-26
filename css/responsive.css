@@ -81,8 +81,8 @@
     }
     /* main section responsive start */
     .main{
-        height: 5700px;
-        /* border: 2px solid red; */
+        height: 6000px;
+        border: 2px solid red;
     }
     .habit-section{
         width: 90%;
@@ -123,20 +123,35 @@
     }
 
     /* bmi sections starts here */
+    
     .bmi-heading{
         width: 90%;
+        height: 220px;
     }
+
     .bmi-section{
         width: 100%;
         flex-direction: column;
-        height: 800px;
+        height: 1000px;
     }
-
-    /* bmi-table section here */
+    .bmi-table{
+        height: 40%;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .th-content{
+      width: 160px; 
+    }
+    .td-content{
+        height: 40px;
+    }
 
     .bmi-calculator{
-        height: 50%;
+        height: 60%;
+        width: 95%;
+        margin: 0 auto;
     }
+
     /* team section starts here */
     .team-heading{
         width: 90%;
