@@ -21,7 +21,7 @@
               <a href="">Contact</a>
               <a href="">About</a>
             </div>
-            <div class="hamberger">
+            <div class="hamburger">
                 <i class="fa-solid fa-bars"></i>
             </div>
             <!-- nav ends here-->
@@ -30,26 +30,25 @@
         <div class="banner">
             <!-- banner div 1 starts here -->
             <div class="banner-div1">
-              <h1 class="banner-text common gap">Get body in <br><span>shape</span>& stay  <br>healthy</h1>
+              <h1 class="banner-text common gap">Get body in <br><i>shape</i> & stay <br>healthy</h1>
               <p class="common-2 gap">A huge selection of health and fitness content,healthy recipes<br>and transformation stories to help you stay fit!</p>
               <div class="banner-div-btn">
                    <button class="common common-btn">Join Club Now!</button>
                    <button class="banner-btn common">Download App</button>
                </div>
-              <!-- banner div 1 end here -->
             </div>
 
             <!-- banner div 2 starts here -->
             <div class="banner-div2">
               <img src="./images/Images 2.png" alt="">
               <button class="over-btn1">
-                   <div class="circle">
+                   <div class="circle"></div>
 
-                   </div>
-                  <div class="over-btn1-text"><h1 class="btn1-watch common">+350</h1>
+                  <div class="over-btn1-text"><h1 class="btn1-watch common">350+</h1>
                        <p class="common-2">Video tutorial</p>
                   </div>
               </button>
+
               <button class="over-btn2">
                  <h1 class="btn1-watch common">500+</h1>
                  <p class="common-2">Free workout video</p>
@@ -59,6 +58,8 @@
         </div>
         <!-- banner end here -->
     </header>
+
+    <!-- main starts here -->
     <main class="main">
         <!-- habit starts here -->
         <section class="habit-section">
@@ -129,16 +130,17 @@
           </div>
 
             <div class="bmi-calculator">
-               <h2 class="common">Calculate your BMI</h2>
-               <p>We believe fitness should be accessible to everyone, everywhere, regardless of <br>income access to a gym.</p>
-                <input type="text" placeholder="Height/cm"> 
-                <input type="text" placeholder="weight/kg"> <br><br>
-                <input type="text" placeholder="Age">
-                <input type="select" placeholder="Sex">
-                <select name="" id=""></select> <br> <br>
-                <input type="text" placeholder="select an activity factor">
-                <select name="" id=""></select> <br><br>
-                <button class="common-btn">Calculate</button>
+               <h2 class="common  Calculate-text">Calculate your BMI</h2>
+               <p class="common-2 Calculate-text">We believe fitness should be accessible to everyone, everywhere, regardless of <br>income access to a gym.</p>
+
+                <form action="" id="form">
+                    <input type="text" placeholder="Height/cm" id="input">
+                    <input type="text" placeholder="weight/kg" id="input"> <br><br>
+                    <input type="text" placeholder="Age" id="input">
+                    <select name="sex" id="sex"><option value="sex">sex</option></select> <br><br>
+                    <select name="factor" id="factor"><option value="factor">select an activity factor</option></select> <br><br>
+                </form>
+                <button class="Calculate-btn">Calculate</button>
             </div>
         </section>
 

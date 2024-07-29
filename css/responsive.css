@@ -1,20 +1,19 @@
 @media screen and (max-width:576px) {
     /* header section */
     .header{
-        height: 1020px;
+        height: 1010px;
+        width: 100%;
         margin: 0 auto;
-        justify-content: center;
-        align-items: center;
+        /* justify-content: center; */
+        /* align-items: center; */
     }
     /* banner section responsive start */
     .navbar{
+        margin-top: 2rem;
         width: 90%;
         margin-bottom: 2rem;
     }
-    .banner{
-        flex-direction: column;
-    }
-    .hamberger{
+    .hamburger{
         display: block;
         color: #ffffff;
         font-size: 1.5rem;
@@ -25,10 +24,14 @@
     /* banner section responsive start */
     .banner{
         margin: 0 auto;
-        width: 90%;
+        width: 90%;  
+        flex-direction: column;
+        height: 900px;
+        gap: 2rem;
     }
     .banner-div1{
-      width: 90%;
+      width:90%;
+      height: 40%;
     }
     .banner-text{
         font-weight: 500;
@@ -39,12 +42,14 @@
         width: 90%;
     }
     .banner-div2{
-        /* height: 90%; */
-        width: 90%;
+        width: 80%;
+        height: 60%;
+        margin: 0 auto;
     }
-    .banner-img img{
-        margin: 0 2rem;
-        width: 90%
+    .banner-div2 img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
     }
     .banner-div-btn{
         display: flex;
@@ -55,8 +60,8 @@
     }
     .over-btn1{
         position: absolute;
-        top: 75%;
-        left: 10%;
+        top: 50%;
+        left: 5%;
         height: 4.5rem;
         width: 9rem;
         border-radius: 0.8rem;
@@ -73,20 +78,21 @@
         font-size: 1.5rem;
     }
     .over-btn2{
-        top: 60%;
-        right: 15%;
-        height: 4.5rem;
-        width: 9rem;
+        top: 13%;
+        right: 3%;
+        height: 4rem;
+        width: 8rem;
         border-radius: 0.8rem;
     }
     /* main section responsive start */
     .main{
-        height: 6000px;
-        border: 2px solid red;
+        height: 5700px;
     }
+
     .habit-section{
         width: 90%;
         height:1300px;
+        margin: 0 auto;
     }
     .habit-caption{
         font-weight: 800;
@@ -94,14 +100,13 @@
     }
     .habit-pic{
         width: 90%;
-        margin: 0 auto;
         display: grid;
-        place-items: center;
         grid-template-columns: repeat(1,1fr);
     }
     .habit-pic img{
         width: 80%;
         margin-bottom: 1rem;
+        margin-left: 3rem;
     }
     /* run section starts here */
     .run-section{
@@ -114,7 +119,7 @@
         width: 90%;
     }
     .run-img{
-         margin: 1rem 1rem;
+       margin: 1rem 1rem;
     }
     /* self section starts here */
     .self-section{
@@ -130,10 +135,10 @@
     }
 
     .bmi-section{
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         flex-direction: column;
-        height: 700px;
-        border: 2px solid purple;
+        height: 730px;
     }
     .bmi-table{
         height: 300px;
@@ -149,9 +154,29 @@
 
     .bmi-calculator{
         height: 400px;
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
+        margin-top: 2rem;
     }
+    #input{
+        width: 45%;
+        height: 2rem;
+        margin-right: 0.5rem;
+        border-radius: 10px;
+    }
+    #sex{
+        width: 45%;
+        height: 2rem;
+        border-radius: 10px;
+    }
+    #factor{
+        width: 93%;
+        height: 2rem;
+    }
+    ::placeholder {
+      color: #eee7e7b4;
+      padding-left: 1rem;
+    }  
 
     /* team section starts here */
     .team-heading{
@@ -172,18 +197,16 @@
     /* footer starts here */
     .footer{
         height: 850px;
-        /* width: 100%; */
+        width: 90%;
         margin: 0 auto;
     }
 
     .footer-child{
         flex-direction: column;
         height: 700px;
-        /* width: 90%; */
     }
     .copyright{
         height: 100px;
-        /* width: 90%; */
     }
 
 }
