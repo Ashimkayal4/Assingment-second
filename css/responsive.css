@@ -4,8 +4,6 @@
         height: 1010px;
         width: 100%;
         margin: 0 auto;
-        /* justify-content: center; */
-        /* align-items: center; */
     }
     /* banner section responsive start */
     .navbar{
@@ -69,7 +67,7 @@
     .circle {
        height: 1.5rem;
        width: 1.5rem;
-       background-color: #E6533C;
+       background-color: rgb(230, 83, 60);
        border-radius: 0.5rem;
        margin: 0.5rem 0.5rem;
     }
@@ -86,7 +84,7 @@
     }
     /* main section responsive start */
     .main{
-        height:5950px;
+        height:5900px;
     }
 
     .habit-section{
@@ -126,7 +124,7 @@
     .self-section{
         margin-top: 2rem;
         width: 90%;
-        height: 900px;
+        height: 850px;
     }
     .self-text{
         height: 300px;
